@@ -17,7 +17,7 @@ public:
     bool life, isMove, onGround, Fire;
     Texture texture;
     Sprite sprite;
-    String name;
+
 
         Entity(Image &image, float X, float Y, int W, int H, String Name) {
         x = X;
