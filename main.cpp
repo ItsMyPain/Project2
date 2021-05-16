@@ -15,7 +15,9 @@ public:
     float dx, dy, x, y, speed, moveTimer;
     int w, h, HP;
     bool life, isMove, onGround, Fire;
-
+    Texture texture;
+    Sprite sprite;
+    String name;
 
         Entity(Image &image, float X, float Y, int W, int H, String Name) {
         x = X;
